@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Signup Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+      	
+  
+</head>
+
+<body>
+<form id="login" action="signup">
+<h1 align="center" style="color:red">QUESTIONAIRRE</h1>
+  <div class="main-wrap">
+        <div class="login-main" style="height: 187px; width: 275px">
+            <input type="text" placeholder="User Name" name="uname" class="box1 border1" onkeyup="if(this.textLength != 0) {submit.disabled = false} else {submit.disabled = true}">
+            <input type="password" placeholder="Password" name="pwd" class="box1 border2"onkeyup="if(this.textLength != 0) {submit.disabled = false} else {submit.disabled = true}">
+            <input type="text" placeholder="First Name" name="fname" class="box1 border2">
+            <input type="text" placeholder="Last Name" name="lname" class="box1 border2"> 
+             <h3>select gender</h3>
+              Male<input type="radio"  placeholder="Male" name="gender" value="male" ><br> 
+              Female<input type="radio" placeholder="Female" name="gender" value="female" > <br>
+              
+            place  <select  name="place" placeholder="place" >
+              <option>Scarborough</option>
+              <option>Brambton</option>
+              <option>Hamilton</option>
+              <option>mississuaga</option>
+              
+              </select>
+            <input type="submit" id="submit" name="submit" class="send" value="SignUp" name="submit" id="submit" disabled="disabled" style="width: 98px; ">
+            
+        </div>
+        
+    </div>
+</form>  
+  
+</body>
+</html>

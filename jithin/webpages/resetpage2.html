@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Reset Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+      <script type="text/javascript" src="passcheck.js"></script>
+
+  
+</head>
+
+<body>
+<form id="reset" action="reset" >
+<h1 align="center" style="color:red">QUESTIONAIRRE</h1>
+  <div class="main-wrap">
+        <div class="login-main" style="height: 122px; ">
+            <input type="password" placeholder="password" name="pwd1" id="pwd1" class="box1 border1">
+            <input type="password" placeholder="Password" name="pwd2" id="pwd2" class="box1 border2" onkeyup="checkPass(); return false;">
+            <span id="confirmMessage" class="confirmMessage"></span>
+            <input type="submit" class="send" value="Reset" id="submit" name="submit" disabled="disabled" width: 81px; " style="width: 84px; ">
+       </div>
+        
+    </div>
+</form>  
+  
+</body>
+</html>
